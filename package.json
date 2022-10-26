@@ -1,0 +1,30 @@
+{
+	"name": "x-snc-linkanalysis",
+	"version": "0.0.1",
+	"private": false,
+	"description": "",
+	"keywords": [
+		"ServiceNow",
+		"Now Experience UI Component",
+		"sn-linkanalysis"
+	],
+	"readme": "./README.md",
+	"engines": {
+		"node": ">=8.6.0",
+		"npm": ">=5.3.0"
+	},
+	"module": "src/index.js",
+	"dependencies": {
+		"@servicenow/ui-core": "latest",
+		"@servicenow/ui-renderer-snabbdom": "latest",
+		"@servicenow/cli-archetype": "latest",
+		"@servicenow/cli-component-archetype": "latest",
+		"@servicenow/sass-theme": "latest",
+		"@servicenow/sass-kit": "latest",
+		"@servicenow/library-translate": "latest"
+	},
+	"devDependencies": {
+		"@servicenow/cli-archetype-dev": "latest",
+		"@servicenow/cli-component-archetype-dev": "latest"
+	}
+}
